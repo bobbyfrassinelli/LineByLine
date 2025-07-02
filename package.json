@@ -1,0 +1,9 @@
+{
+  "name": "linebyline-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm --prefix frontend run dev",
+    "postinstall": "npm --prefix frontend install"
+  }
+} 
